@@ -6,7 +6,7 @@ on:
 
 jobs:
   tests:
-    name: Prepare E2E tests
+    name: Prepare integration tests
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
